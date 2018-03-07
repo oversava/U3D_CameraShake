@@ -43,11 +43,6 @@ public abstract class CameraShake : MonoBehaviour
 
 	protected void Reset(bool state, float disScale = 1.0f)
 	{
-//		if (isShaking && state)
-//		{
-//			return;
-//		}
-
         if (cameraTrans == null)
             cameraTrans = transform;
 

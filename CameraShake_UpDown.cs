@@ -25,9 +25,5 @@ public class CameraShake_UpDown : CameraShake
 		
 		// special
 		cameraTrans.localPosition = Vector3.up * newDistance * ShakeMaxDistance * shakeDistanceScale;
-
-//		Vector3 forw = parentTrans.forward;
-//		Vector3 vec = ssGameWorld.Instance.PlayerHero.transform.position - parentTrans.position;
-//		Vector3 nor = vec.normalized;
 	}
 }
